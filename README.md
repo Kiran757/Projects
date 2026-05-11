@@ -1,58 +1,38 @@
-# FM Clothing Store - End-to-End Data Analyst Portfolio
+# Data Analyst Portfolio
 
-**Showcasing SQL, NoSQL, Python, Data Modeling & Business Intelligence Skills**
+Welcome to my Data Analytics portfolio repository. This portfolio showcases projects completed using Python, SQL, Tableau, and MongoDB, focusing on data analysis, visualization, machine learning, and business intelligence.
 
-A complete retail analytics portfolio built during the **Data Management** module at University of Portsmouth.  
-This repository combines relational databases, NoSQL databases, and advanced Python analytics — all based on the same real-world **FM Clothing Store** case study.
+📌 **Projects Overview**
+Project	Technology	Key Skills Demonstrated
+Baseball Player & Salary Data Analysis	MySQL	Joins, CTEs, Window Functions, KPI Reporting, Trend Analysis
+MongoDB FM Clothing Store Analysis	MongoDB	Aggregation Pipelines, NoSQL Queries, Business Analytics
+UK Census 2011 Data Analysis & Clustering	Python	EDA, Classification, Regression, Clustering, Data Visualization
+Customer Churn Analysis Dashboard	Tableau	Dashboard Development, KPI Tracking, Customer Churn Analysis
 
----
+🛠️ **Technical Skills**
+Languages: Python, SQL
+Databases: MySQL, PostgreSQL, MongoDB
+Visualization: Tableau, Power BI, Matplotlib
+Libraries: Pandas, NumPy, Scikit-learn, NLTK
+Tools: Jupyter Notebook, GitHub, pgAdmin, MongoDB Compass
 
-## 📌 Projects Overview
+🚀 **Portfolio Highlights**
+End-to-end data analysis and reporting projects
+SQL analytics using joins, CTEs, and window functions
+Dashboard development and data storytelling
+Machine learning and predictive analytics
+Business-focused insights and reporting
 
-| Project                          | Technology       | Key Skills Demonstrated |
-|----------------------------------|------------------|-------------------------|
-| **[SQL - FM Clothing Store](./database-projects/SQL-FM-Clothing-Store)** | PostgreSQL | EERD, Data Dictionary, Normalization, Complex SQL Queries, Business Reporting |
-| **[MongoDB - FM Clothing Store](./database-projects/MongoDB-FM-Clothing-Store)** | MongoDB | Document Modeling, Aggregation Pipelines, NoSQL Analytics |
-| **[Census Analysis](./python-projects/IDATA-Coursework)** | Python | EDA, Feature Engineering, GMM Clustering, PCA Visualization |
-| **[Amazon Sentiment Analysis](./python-projects/Amazon-Sentiment-Analysis)** | Python + NLP | Text Preprocessing, LDA/LSA Topic Modeling, Classification |
-| **[Stroke Prediction](./python-projects/Stroke-Prediction)** | Python | Data Cleaning, Class Imbalance, Healthcare EDA & Preprocessing |
+🎯 **Career Focus**
+Interested in:
+Data Analyst Roles
+Business Intelligence Roles
+Reporting Analyst Roles
+Data Analyst Internships
 
----
+👨‍💻** About Me**
+Kiran Paudel
+MSc Data Analytics
+University of Portsmouth
 
-## 🛠️ Tech Stack
-
-- **Databases**: PostgreSQL • MongoDB
-- **Languages**: SQL • Python
-- **Python Libraries**: pandas, scikit-learn, NLTK, Gensim, seaborn, matplotlib
-- **Tools**: Jupyter Notebook, pgAdmin, MongoDB Compass
-
----
-
-## 🚀 How to Explore This Portfolio
-
-1. Click on any project folder above
-2. Open the individual `README.md` inside each folder for detailed explanations, code walkthroughs, and results
-3. View the full academic reports (PDFs) for EERD diagrams, data dictionaries, and reflective reports
-4. All code and queries are ready to run
-
----
-
-## 🎯 What This Portfolio Demonstrates
-
-- End-to-end database design (both SQL and NoSQL)
-- Translating business requirements into technical solutions
-- Advanced data analysis and machine learning techniques
-- Clean, well-documented, production-ready code
-- Strong storytelling with data for business insights
-
-**Ideal for roles in Data Analyst or Business Intelligence Analyst.**
-
----
-
-Made with ❤️ by [Kiran Paudel]  
-University of Portsmouth – MSc [Data Analytics]  
- Coursework
-
----
-
-**⭐ Feel free to explore, fork, or reach out for collaboration!**
+Passionate about transforming data into actionable insights through analytics, visualization, and reporting.
