@@ -1,5 +1,4 @@
--- Connect to database (MySQL)
-USE maven_advanced_sql;
+
 
 -- PART I: SCHOOL ANALYSIS
 
@@ -106,15 +105,6 @@ SELECT 	nameGiven,
 FROM	players
 ORDER BY career_length DESC;
 
-/* Datetime functions vary widely by RDBMS:
-
-- MySQL:		TIMESTAMPDIFF(YEAR, CAST(CONCAT(birthYear, '-', birthMonth, '-', birthDay) AS DATE), debut)
-- Oracle:		MONTHS_BETWEEN(TO_DATE(birthYear || '-' || birthMonth || '-' || birthDay, 'YYYY-MM-DD'), debut) / 12
-- PostgreSQL:	DATE_PART('year', debut) - DATE_PART('year', TO_DATE(birthYear || '-' || birthMonth || '-' || birthDay, 'YYYY-MM-DD'))
-- SQL Server:	DATEDIFF(YEAR, CAST(birthYear + '-' + birthMonth + '-' + birthDay AS DATE), debut)
-- SQLite:		CAST((STRFTIME('%Y', debut) - STRFTIME('%Y', birthYear || '-' || birthMonth || '-' || birthDay)) AS INTEGER)
-
-*/
 
 -- TASK 3: What team did each player play on for their starting and ending years? [Joins]
 SELECT 	p.nameGiven,
@@ -154,21 +144,6 @@ FROM	bn
 WHERE	YEAR(birthdate) BETWEEN 1980 AND 1990
 GROUP BY birthdate
 ORDER BY birthdate;
-
-/* These functions vary by RDBMS:
-
-String concatenation:
-- MySQL & SQL Server: CONCAT(birthYear, '-', birthMonth, '-', birthDay)
-- Oracle, PostgreSQL & SQLite: birthYear || '-' || birthMonth || '-' || birthDay
-
-Group concatenation:
-- MySQL:		GROUP_CONCAT(nameGiven SEPARATOR ', ')
-- Oracle:		LISTAGG(nameGiven, ', ') WITHIN GROUP (ORDER BY nameGiven)
-- PostgreSQL:	STRING_AGG(nameGiven, ', ' ORDER BY nameGiven)
-- SQL Server:	STRING_AGG(nameGiven, ', ') WITHIN GROUP (ORDER BY nameGiven)
-- SQLite:		GROUP_CONCAT(nameGiven, ', ')
-
-*/
 
 -- TASK 3: Create a summary table that shows for each team, what percent of players bat right, left and both [Pivoting]
 -- EDIT: This solution doesn't account for duplicate player rows in the salaries table. The DISTINCT solution below is the more accurate one.
